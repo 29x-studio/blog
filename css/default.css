@@ -1,0 +1,303 @@
+@charset:"utf-8";
+
+@font-face {
+  font-family:"Avenir Next";font-weight:700;src:local("AvenirNext-Bold")
+}
+
+@font-face {
+  font-family:"Avenir Next";font-weight:500;src:local("AvenirNext-Medium")
+}
+
+@font-face {
+  font-family:"Avenir Next";font-weight:400;src:local("AvenirNext-Regular")
+}
+
+@font-face {
+  font-family:"Avenir Next";font-weight:300;src:local("AvenirNext-Regular")
+}
+
+@font-face {
+  font-family:"Avenir Next";font-weight:100;src:local("AvenirNext-UltraLight")
+}
+
+@font-face {
+  font-family:"Segoe UI";font-weight:700;src:local("Segoe UI Bold")
+}
+
+@font-face {
+  font-family:"Segoe UI";font-weight:500;src:local("Segoe UI Semibold")
+}
+
+@font-face {
+  font-family:"Segoe UI";font-weight:400;src:local("Segoe UI")
+}
+
+@font-face {
+  font-family:"Segoe UI";font-weight:300;src:local("Segoe UI Semilight")
+}
+
+@font-face {
+  font-family:"Segoe UI";font-weight:100;src:local("Segoe UI Light")
+}
+
+@font-face {
+  font-family:Roboto;font-weight:700;src:local("sans-serif-bold")
+}
+
+@font-face {
+  font-family:Roboto;font-weight:500;src:local("sans-serif-medium")
+}
+
+@font-face {
+  font-family:Roboto;font-weight:400;src:local("sans-serif-regular")
+}
+
+@font-face {
+  font-family:Roboto;font-weight:300;src:local("sans-serif-light")
+}
+
+@font-face {
+  font-family:Roboto;font-weight:100;src:local("sans-serif-thin")
+}
+
+@font-face {
+  font-family:"Source Han Sans SC";font-weight:700;src:local("Source Han Sans SC Bold")
+}
+
+@font-face {
+  font-family:"Source Han Sans SC";font-weight:500;src:local("Source Han Sans SC Medium")
+}
+
+@font-face {
+  font-family:"Source Han Sans SC";font-weight:400;src:local("Source Han Sans SC Normal")
+}
+
+@font-face {
+  font-family:"Source Han Sans SC";font-weight:300;src:local("Source Han Sans SC Light")
+}
+
+@font-face {
+  font-family:"Source Han Sans SC";font-weight:100;src:local("Source Han Sans SC ExtraLight")
+}
+
+@font-face {
+  font-family:"Noto Sans CJK SC";font-weight:700;src:local("Noto Sans CJK SC Bold")
+}
+
+@font-face {
+  font-family:"Noto Sans CJK SC";font-weight:500;src:local("Noto Sans CJK SC Medium")
+}
+
+@font-face {
+  font-family:"Noto Sans CJK SC";font-weight:400;src:local("Noto Sans CJK SC DemiLight")
+}
+
+@font-face {
+  font-family:"Noto Sans CJK SC";font-weight:300;src:local("Noto Sans CJK SC Light")
+}
+
+@font-face {
+  font-family:"Noto Sans CJK SC";font-weight:100;src:local("Noto Sans CJK SC Thin")
+}
+
+@font-face {
+  font-family:"Hiragino Sans GB";font-weight:700;src:local("Hiragino Sans GB W6")
+}
+
+@font-face {
+  font-family:"Hiragino Sans GB";font-weight:500;src:local("Hiragino Sans GB W6")
+}
+
+@font-face {
+  font-family:"Hiragino Sans GB";font-weight:400;src:local("Hiragino Sans GB W3")
+}
+
+@font-face {
+  font-family:"Hiragino Sans GB";font-weight:300;src:local("Hiragino Sans GB W3")
+}
+
+@font-face {
+  font-family:"Hiragino Sans GB";font-weight:100;src:local("Hiragino Sans GB W3")
+}
+
+@font-face {
+  font-family:"Microsoft YaHei UI";font-weight:700;src:local("Microsoft YaHei UI Bold")
+}
+
+@font-face {
+  font-family:"Microsoft YaHei UI";font-weight:500;src:local("Microsoft YaHei UI Bold")
+}
+
+@font-face {
+  font-family:"Microsoft YaHei UI";font-weight:400;src:local("Microsoft YaHei UI")
+}
+
+@font-face {
+  font-family:"Microsoft YaHei UI";font-weight:300;src:local("Microsoft YaHei UI Light")
+}
+
+@font-face {
+  font-family:"Microsoft YaHei UI";font-weight:100;src:local("Microsoft YaHei UI Light")
+}
+
+.lang:lang(en),body:lang(en) {
+  font-family: "Avenir Next","Segoe UI",Roboto,sans-serif
+}
+
+.lang:lang(zh),body:lang(zh) {
+  font-family: "Source Han Sans SC","Noto SansCJK SC","Hiragino Sans GB","Microsoft YaHei UI",sans-serif
+}
+
+body,html{
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  line-height: 1.375;
+
+}
+body{
+  font-size: 16px;
+}
+img{
+  width: 100%;
+  max-width: 768px;
+  margin-bottom: 20px;
+}
+h1,h2,h3,h4,h5{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+h1{
+  font-size: 2.2em;
+  font-weight: bold;
+}
+h2{
+  font-size: 2em;
+  font-weight: bold;
+  
+}
+h3{
+  font-size: 1.75em;
+  color:chocolate;
+}
+h4{
+  font-size: 1.5rem;
+  color:#859900;
+}
+h5{
+  font-size: 1.25rem;
+}
+p{
+  text-indent: 2em;
+  margin-bottom: 10px;
+  color:#171717;
+}
+em{
+  font-weight: bold;
+}
+blockquote {
+  background:#f9f9f9;
+  border-left:10px solid #ccc;
+  margin:1.5em 10px;
+  padding:.5em 10px;
+  quotes:"\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color:#ccc;
+  content:open-quote;
+  font-size:4em;
+  line-height:.1em;
+  margin-right:.25em;
+  vertical-align:-.4em;
+}
+blockquote p {
+  display:inline;
+}
+.hide{
+  display: none;
+}
+/*header*/
+.header{
+  width: 100%;
+  height: 120px;
+  /*background-color:pink;*/
+}
+a{
+  color: #333;
+  text-decoration: underline;
+}
+a:active{
+  color:#333;
+  text-decoration: underline;
+}
+/*nav*/
+.nav{
+  width: 100%;
+  line-height: 16px;
+  font-size: 16px;
+  padding-left: 10%;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -ms-box-sizing:border-box;
+  -o-box-sizing:border-box;
+  box-sizing:border-box;
+  /*background-color:yellow;*/
+}
+.nav a{
+  padding-left: 3%;
+}
+/*aside*/
+.aside{
+  width: 7%;
+  min-height: 200px;
+  float: left;
+  /*background-color:yellowgreen;*/
+}
+/*content*/
+.content{
+  width: 93%;
+  min-height: 200px;
+  float: left;
+  /*background-color:gold;*/
+  padding:3%;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -ms-box-sizing:border-box;
+  -o-box-sizing:border-box;
+  box-sizing:border-box;
+}
+.articleList li{
+  width: 100%;
+  max-width: 500px;
+  border: 1px solid #636363;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  padding:3px;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -ms-box-sizing:border-box;
+  -o-box-sizing:border-box;
+  box-sizing:border-box;
+}
+.date{
+  color:#636363;
+}
+/*color*/
+.red{
+  color:red;
+}
+.attention{
+  color:#DD4A68;
+}
+a[href*='http'],a[href*='http']:active{
+  color:#268bd2;
+  font-style: italic;
+  text-decoration: none;
+  display: inline-block;
+  padding:5px ;
+  text-align: center;
+  text-indent: 0;
+}
+strong{
+  font-weight: bolder;
+}
