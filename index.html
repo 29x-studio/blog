@@ -1,18 +1,31 @@
 ---
 layout: default
-title: asAlways' blog
+title: 转曲线工作室
 ---
 
-<h2>{{ page.title }}</h2>
-
-<p>最新文章</p>
+<div class="index_banner" style="background-image:url({{ site.baseurl }}/images/banner.jpg)"></div>
 
 <ul class="articleList">
 
 	{% for post in site.posts %} 
-		<li><span class="date">{{ post.date | date_to_string }}</span><br /> 
-			<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+		<li class='article'><a href="{{ site.baseurl }}{{ post.url }}">
+      <div class="article_pic"><img src="{{ site.baseurl }}/images{{ post.id }}.jpg" alt=""></div>
+      <div class="article_bottom">
+        <div class="article_date" data-date="{{ post.date | date_to_string }}"></div>
+        <p class="article_title">{{ post.title }}</p>
+        <p class="article_excerpt">{{ post.excerpt }}</p>
+      </div>
+      </a>
 		</li>
 	{% endfor %}
-
+  
 </ul>
+
+<script>
+  $('.article_date').each(function (index,item) {
+    var _day = $(item).attr('data-date').split(' ')[0];
+    var _mon = $(item).attr('data-date').split(' ')[1];
+    var _html = '<div class="article_date_day">' + _day + '</div>' + '<div class="article_date_mon">' + _mon + '.</div>'; 
+    $(item).html(_html);
+  })
+</script>
