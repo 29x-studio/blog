@@ -7,6 +7,7 @@ excerpt: 我的第一篇文章
 
 # {{ page.title }}
 
+![题图]({{ site.baseurl }}/images{{ page.id }}.jpg)
 {{ page.date | date_to_string }} Author:wuguanxi
 
 ## PART ONE/ 一级标题

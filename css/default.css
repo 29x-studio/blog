@@ -211,6 +211,8 @@ body {
 img {
   width: 100%;
   max-width: 768px;
+  display: block;
+  margin: 0 auto;
   margin-bottom: 20px;
 }
 
@@ -254,6 +256,7 @@ em {
 ul {
   padding-left: 30px;
   list-style: disc;
+  margin-bottom: 10px;
 }
 ul li {
   margin-bottom: 10px;
@@ -278,6 +281,23 @@ blockquote:before {
 
 blockquote p {
   display: inline;
+}
+
+table {
+  width: 100%;
+  background-color: transparent;
+  margin-bottom: 20px;
+}
+table th, table td {
+  padding: 0.5em;
+  border: 1px solid #ddd;
+  line-height: 1.5;
+}
+table th {
+  font-weight: 700;
+}
+table thead th {
+  vertical-align: bottom;
 }
 
 .hide {
