@@ -14,188 +14,12 @@
   -webkit-box-orient:vertical;
 }
 
-
-@font-face {
-  font-family: "Avenir Next";
-  font-weight: 700;
-  src: local("AvenirNext-Bold");
-}
-@font-face {
-  font-family: "Avenir Next";
-  font-weight: 500;
-  src: local("AvenirNext-Medium");
-}
-@font-face {
-  font-family: "Avenir Next";
-  font-weight: 400;
-  src: local("AvenirNext-Regular");
-}
-@font-face {
-  font-family: "Avenir Next";
-  font-weight: 300;
-  src: local("AvenirNext-Regular");
-}
-@font-face {
-  font-family: "Avenir Next";
-  font-weight: 100;
-  src: local("AvenirNext-UltraLight");
-}
-@font-face {
-  font-family: "Segoe UI";
-  font-weight: 700;
-  src: local("Segoe UI Bold");
-}
-@font-face {
-  font-family: "Segoe UI";
-  font-weight: 500;
-  src: local("Segoe UI Semibold");
-}
-@font-face {
-  font-family: "Segoe UI";
-  font-weight: 400;
-  src: local("Segoe UI");
-}
-@font-face {
-  font-family: "Segoe UI";
-  font-weight: 300;
-  src: local("Segoe UI Semilight");
-}
-@font-face {
-  font-family: "Segoe UI";
-  font-weight: 100;
-  src: local("Segoe UI Light");
-}
-@font-face {
-  font-family: Roboto;
-  font-weight: 700;
-  src: local("sans-serif-bold");
-}
-@font-face {
-  font-family: Roboto;
-  font-weight: 500;
-  src: local("sans-serif-medium");
-}
-@font-face {
-  font-family: Roboto;
-  font-weight: 400;
-  src: local("sans-serif-regular");
-}
-@font-face {
-  font-family: Roboto;
-  font-weight: 300;
-  src: local("sans-serif-light");
-}
-@font-face {
-  font-family: Roboto;
-  font-weight: 100;
-  src: local("sans-serif-thin");
-}
-@font-face {
-  font-family: "Source Han Sans SC";
-  font-weight: 700;
-  src: local("Source Han Sans SC Bold");
-}
-@font-face {
-  font-family: "Source Han Sans SC";
-  font-weight: 500;
-  src: local("Source Han Sans SC Medium");
-}
-@font-face {
-  font-family: "Source Han Sans SC";
-  font-weight: 400;
-  src: local("Source Han Sans SC Normal");
-}
-@font-face {
-  font-family: "Source Han Sans SC";
-  font-weight: 300;
-  src: local("Source Han Sans SC Light");
-}
-@font-face {
-  font-family: "Source Han Sans SC";
-  font-weight: 100;
-  src: local("Source Han Sans SC ExtraLight");
-}
-@font-face {
-  font-family: "Noto Sans CJK SC";
-  font-weight: 700;
-  src: local("Noto Sans CJK SC Bold");
-}
-@font-face {
-  font-family: "Noto Sans CJK SC";
-  font-weight: 500;
-  src: local("Noto Sans CJK SC Medium");
-}
-@font-face {
-  font-family: "Noto Sans CJK SC";
-  font-weight: 400;
-  src: local("Noto Sans CJK SC DemiLight");
-}
-@font-face {
-  font-family: "Noto Sans CJK SC";
-  font-weight: 300;
-  src: local("Noto Sans CJK SC Light");
-}
-@font-face {
-  font-family: "Noto Sans CJK SC";
-  font-weight: 100;
-  src: local("Noto Sans CJK SC Thin");
-}
-@font-face {
-  font-family: "Hiragino Sans GB";
-  font-weight: 700;
-  src: local("Hiragino Sans GB W6");
-}
-@font-face {
-  font-family: "Hiragino Sans GB";
-  font-weight: 500;
-  src: local("Hiragino Sans GB W6");
-}
-@font-face {
-  font-family: "Hiragino Sans GB";
-  font-weight: 400;
-  src: local("Hiragino Sans GB W3");
-}
-@font-face {
-  font-family: "Hiragino Sans GB";
-  font-weight: 300;
-  src: local("Hiragino Sans GB W3");
-}
-@font-face {
-  font-family: "Hiragino Sans GB";
-  font-weight: 100;
-  src: local("Hiragino Sans GB W3");
-}
-@font-face {
-  font-family: "Microsoft YaHei UI";
-  font-weight: 700;
-  src: local("Microsoft YaHei UI Bold");
-}
-@font-face {
-  font-family: "Microsoft YaHei UI";
-  font-weight: 500;
-  src: local("Microsoft YaHei UI Bold");
-}
-@font-face {
-  font-family: "Microsoft YaHei UI";
-  font-weight: 400;
-  src: local("Microsoft YaHei UI");
-}
-@font-face {
-  font-family: "Microsoft YaHei UI";
-  font-weight: 300;
-  src: local("Microsoft YaHei UI Light");
-}
-@font-face {
-  font-family: "Microsoft YaHei UI";
-  font-weight: 100;
-  src: local("Microsoft YaHei UI Light");
-}
 .lang:lang(en), body:lang(en) {
   font-family: "Avenir Next", "Segoe UI", Roboto, sans-serif;
 }
 
 .lang:lang(zh), body:lang(zh) {
-  font-family: "Source Han Sans SC", "Noto SansCJK SC", "Hiragino Sans GB", "Microsoft YaHei UI", sans-serif;
+  font-family:"PingFang SC", "Source Han Sans SC", "Noto SansCJK SC", "Hiragino Sans GB", "Microsoft YaHei UI", sans-serif;
 }
 
 body, html {
@@ -223,7 +47,6 @@ img {
 
 h1 {
   font-size: 2.5em;
-  font-weight: 500;
   margin-top: 1.875em;
   margin-bottom: 0.25em;
   text-align: center;
@@ -231,7 +54,6 @@ h1 {
 
 h2 {
   font-size: 2em;
-  font-weight: 500;
   margin-top: 1.625em;
   margin-bottom: 2.5em;
 }
