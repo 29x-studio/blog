@@ -286,10 +286,6 @@ nav a {
   }
 }
 @media screen and (max-width: 590px) {
-  body {
-    font-size: 12px;
-  }
-
   .articleList > li.article {
     margin: 0 15px 10px;
   }
