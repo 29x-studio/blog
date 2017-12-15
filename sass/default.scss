@@ -247,23 +247,23 @@ nav{
     }
     .article_title{
       @extend %oneline;
-      font-size: 24px;
+      font-size: 1.5em;
       color:#333;
       margin-bottom:6px;
     }
     .article_excerpt{
       @extend %twoline;
-      font-size: 20px;
+      font-size: 1.25em;
       color:#999;
       margin-bottom: 0;
     }
     .article_date_day{
-      font-size: 40px;
+      font-size: 2.5em;
       color:#333;
       margin-bottom: -6px;
     }
     .article_date_mon{
-      font-size: 24px;
+      font-size: 1.5em;
       color:#333;
     }
   }
@@ -294,6 +294,9 @@ nav{
 }
 
 @media screen and (max-width: 590px) {
+  body{
+    font-size: 12px;
+  }
   .articleList{
     >li.article{
       margin:0 15px 10px;

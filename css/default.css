@@ -246,22 +246,22 @@ nav a {
   text-align: center;
 }
 .articleList > li.article .article_title {
-  font-size: 24px;
+  font-size: 1.5em;
   color: #333;
   margin-bottom: 6px;
 }
 .articleList > li.article .article_excerpt {
-  font-size: 20px;
+  font-size: 1.25em;
   color: #999;
   margin-bottom: 0;
 }
 .articleList > li.article .article_date_day {
-  font-size: 40px;
+  font-size: 2.5em;
   color: #333;
   margin-bottom: -6px;
 }
 .articleList > li.article .article_date_mon {
-  font-size: 24px;
+  font-size: 1.5em;
   color: #333;
 }
 .articleList:after {
@@ -288,6 +288,10 @@ nav a {
   }
 }
 @media screen and (max-width: 590px) {
+  body {
+    font-size: 12px;
+  }
+
   .articleList > li.article {
     margin: 0 15px 10px;
   }
