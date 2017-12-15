@@ -328,8 +328,9 @@ nav a {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  height: 73px;
+  height: 100px;
   padding-bottom: 27px;
+  box-sizing: border-box;
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
@@ -432,6 +433,11 @@ nav a {
   margin: 0 auto;
 }
 
+@media screen and (max-width: 1200px) {
+  .header_nav {
+    padding: 0 10px 27px;
+  }
+}
 @media screen and (max-width: 1000px) {
   .post_content {
     padding: 10px;
