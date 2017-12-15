@@ -12,8 +12,10 @@ title: 转曲线工作室
       <div class="article_pic"><img src="{{ site.baseurl }}/images{{ post.id }}.jpg" alt=""></div>
       <div class="article_bottom">
         <div class="article_date" data-date="{{ post.date | date_to_string }}"></div>
-        <p class="article_title">{{ post.title }}</p>
-        <p class="article_excerpt">{{ post.excerpt }}</p>
+        <div>
+          <p class="article_title">{{ post.title }}</p>
+          <p class="article_excerpt">{{ post.excerpt }}</p>
+        </div>
       </div>
       </a>
 		</li>

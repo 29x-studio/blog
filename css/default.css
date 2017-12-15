@@ -2,7 +2,9 @@
 .articleList > li.article .article_title {
   overflow: hidden;
   text-overflow: ellipsis;
-  white-space: nowrap;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
 }
 
 .articleList > li.article .article_excerpt {
@@ -229,21 +231,17 @@ nav a {
 }
 .articleList > li.article .article_bottom {
   width: 100%;
-  padding-left: 100px;
   box-sizing: border-box;
   position: relative;
-  height: 90px;
   margin-top: 10px;
+  display: flex;
 }
 .articleList > li.article .article_date {
-  width: 80px;
-  height: 90px;
+  padding: 6px 15px;
   box-sizing: border-box;
   border: 1px solid #e3e3e3;
-  position: absolute;
-  top: 0;
-  left: 0;
   text-align: center;
+  margin-right: 10px;
 }
 .articleList > li.article .article_title {
   font-size: 1.5em;
