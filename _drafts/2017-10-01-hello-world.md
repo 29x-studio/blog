@@ -11,7 +11,7 @@ excerpt: 我的第一篇文章
 
 ----------
 
-{{ page.date | date_to_string }}  Author:wuguanxi
+##### {{ page.date | date_to_string }}  Author:wuguanxi
 
 ## PART ONE/ 一级标题
 

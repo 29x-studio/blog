@@ -40,7 +40,6 @@ img {
   max-width: 768px;
   display: block;
   margin: 0 auto;
-  margin-bottom: 20px;
 }
 
 h1 {
@@ -63,11 +62,13 @@ h3 {
 }
 
 h4 {
-  font-size: 1.5rem;
+  font-size: 1.5em;
 }
 
 h5 {
-  font-size: 1.25rem;
+  font-size: 1.25em;
+  color: #ccc;
+  margin-bottom: 10px;
 }
 
 p {
@@ -182,8 +183,10 @@ nav a {
 }
 
 .logo {
-  width: 44px;
-  height: 40px;
+  width: 164px;
+}
+.logo img {
+  width: 100%;
 }
 
 .index_banner {
@@ -193,7 +196,6 @@ nav a {
   background-position: center center;
   background-size: 100% auto;
   padding-top: 27.08333%;
-  max-width: 1920px;
 }
 
 .articleList {
@@ -254,7 +256,7 @@ nav a {
   margin-bottom: 0;
 }
 .articleList > li.article .article_date_day {
-  font-size: 2.5em;
+  font-size: 2.2em;
   color: #333;
   margin-bottom: -6px;
 }
@@ -286,6 +288,10 @@ nav a {
   }
 }
 @media screen and (max-width: 590px) {
+  body {
+    font-size: 14px;
+  }
+
   .articleList > li.article {
     margin: 0 15px 10px;
   }
