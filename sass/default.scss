@@ -394,6 +394,10 @@ nav{
   nav >a{
     display: none;
   }
+  .logo{
+    width: 110px;
+    img{width: 100%;}
+  }
   .icon_nav{
     display: flex;
   }
