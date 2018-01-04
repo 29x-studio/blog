@@ -32,7 +32,7 @@ body, html {
 
 body {
   font-size: 16px;
-  color: #333;
+  color: #999;
 }
 
 img {
@@ -40,6 +40,10 @@ img {
   max-width: 768px;
   display: block;
   margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #333;
 }
 
 h1 {
@@ -51,24 +55,31 @@ h1 {
 
 h2 {
   font-size: 2em;
+  font-weight: 700;
   margin-top: 1.625em;
   margin-bottom: 2.5em;
+  text-align: center;
 }
 
 h3 {
-  font-size: 2em;
+  font-size: 1.6em;
   font-weight: 700;
-  margin-bottom: 0.625em;
+  margin-top: 1.625em;
+  margin-bottom: 1.625em;
+  text-align: center;
 }
 
 h4 {
-  font-size: 1.5em;
+  font-size: 1.25em;
+  text-align: left;
+  margin-bottom: 5px;
 }
 
 h5 {
-  font-size: 1.25em;
+  font-size: 1em;
   color: #ccc;
   margin-bottom: 10px;
+  text-align: left;
 }
 
 p {
@@ -124,6 +135,10 @@ table th {
 }
 table thead th {
   vertical-align: bottom;
+}
+
+strong {
+  font-weight: bolder;
 }
 
 .hide {
@@ -274,6 +289,12 @@ nav a {
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
+}
+.post_content img {
+  width: auto;
+  max-width: 100%;
+  display: block;
+  margin: auto;
 }
 
 @media screen and (max-width: 1200px) {
